@@ -1,75 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Davide Dottore - Soluzioni Finanziarie</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 0; }
+    header, footer { background: #222; color: white; text-align: center; padding: 20px; }
+    .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 30px; gap: 30px; }
+    .box { background: white; padding: 20px; border-radius: 8px; width: 45%; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .cta button { padding: 10px 20px; font-size: 16px; background: #0077cc; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; }
+  </style>
+</head>
+<body>
 <header>
-
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
+  <h1>Soluzioni per Privati e Aziende</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="chi-siamo.html">Chi Siamo</a>
+    <a href="privati.html">Privati</a>
+    <a href="aziende.html">Aziende</a>
+    <a href="contatti.html">Contatti</a>
+  </nav>
 </header>
 
-<!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
--->
-
-## Welcome
-
-With GitHub Pages, you can host project blogs, documentation, resumes, portfolios, or any other static content you'd like. Your GitHub repository can easily become its own website. In this course, we'll show you how to set up your own site or blog using GitHub Pages.
-
-- **Who is this for**: Beginners, students, project maintainers, small businesses.
-- **What you'll learn**: How to build a GitHub Pages site.
-- **What you'll build**: We'll build a simple GitHub Pages site with a blog. We'll use [Jekyll](https://jekyllrb.com), a static site generator.
-- **Prerequisites**: If you need to learn about branches, commits, and pull requests, take [Introduction to GitHub](https://github.com/skills/introduction-to-github) first.
-- **How long**: This course takes less than one hour to complete.
-
-In this course, you will:
-
-1. Enable GitHub Pages
-2. Configure your site
-3. Customize your home page
-4. Create a blog post
-5. Merge your pull request
-
-### How to start this course
-
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'skills',
-  template_name: 'github-pages',
-  owner: '@me',
-  name: 'skills-github-pages',
-  description: 'My clone repository',
-  visibility: 'public',
-}).toString()
--->
-
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=github-pages&owner=%40me&name=skills-github-pages&description=My+clone+repository&visibility=public)
-
-1. Right-click **Start course** and open the link in a new tab.
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+<div class="container">
+  <div class="box">
+    <h2>Prestiti per Privati</h2>
+    <p>Cessione del quinto, prestiti personali e soluzioni su misura anche per chi ha avuto difficoltà di accesso al credito. Consulenza gratuita, nessuna spesa anticipata.</p>
+    <div class="cta"><button onclick="window.location.href='privati.html'">Scopri di più</button></div>
+  </div>
+  <div class="box">
+    <h2>Servizi CRIBIS per Aziende</h2>
+    <p>Soluzioni per ridurre i rischi e far crescere il tuo business con i dati: Margò, Hoovers, Synesgy e D&B Analytics.</p>
+    <div class="cta"><button onclick="window.location.href='aziende.html'">Scopri i servizi</button></div>
+  </div>
+</div>
 
 <footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+  Davide Dottore - WhatsApp: 3483777308
 </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Chi Siamo - Davide Dottore</title>
+</head>
+<body>
+  <h1>Chi Sono</h1>
+  <p>Mi chiamo Davide Dottore, consulente esperto in soluzioni finanziarie per privati e servizi CRIBIS per aziende. Opero principalmente nella provincia di Cuneo offrendo supporto affidabile e su misura.</p>
+  <a href="index.html">Torna alla Home</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Soluzioni per Privati</title>
+</head>
+<body>
+  <h1>Prestiti a Consumo</h1>
+  <p>Offriamo prestiti personali e cessione del quinto anche a chi ha avuto difficoltà: segnalazioni, pignoramenti, contratti a tempo determinato o pensioni di invalidità.</p>
+  <p>Scrivimi: <a href="mailto:ddottore@avverafinanziamenti.it">ddottore@avverafinanziamenti.it</a></p>
+  <a href="index.html">Torna alla Home</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Servizi per Aziende</title>
+</head>
+<body>
+  <h1>Prodotti CRIBIS</h1>
+  <ul>
+    <li><strong>Margò</strong>: Qualifica clienti italiani</li>
+    <li><strong>Hoovers</strong>: Ricerca partner esteri</li>
+    <li><strong>Synesgy</strong>: Rating ESG</li>
+    <li><strong>D&B Analytics</strong>: Analisi predittive</li>
+  </ul>
+  <p>Contatto diretto: <a href="mailto:D.Dottore@sales.cribis.com">D.Dottore@sales.cribis.com</a></p>
+  <a href="index.html">Torna alla Home</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Contatti - Davide Dottore</title>
+</head>
+<body>
+  <h1>Contattami</h1>
+  <p>Per prestiti: <a href="mailto:ddottore@avverafinanziamenti.it">ddottore@avverafinanziamenti.it</a></p>
+  <p>Per servizi CRIBIS: <a href="mailto:D.Dottore@sales.cribis.com">D.Dottore@sales.cribis.com</a></p>
+  <p>WhatsApp: 3483777308</p>
+  <a href="index.html">Torna alla Home</a>
+</body>
+</html>
